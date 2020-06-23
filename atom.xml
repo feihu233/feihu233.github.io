@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feihu233.github.io</id>
     <title>Gridea</title>
-    <updated>2020-06-22T13:09:36.085Z</updated>
+    <updated>2020-06-23T09:47:55.407Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://feihu233.github.io"/>
     <link rel="self" href="https://feihu233.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://feihu233.github.io/images/avatar.png</logo>
     <icon>https://feihu233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[三角函数]]></title>
+        <id>https://feihu233.github.io/post/san-jiao-han-shu/</id>
+        <link href="https://feihu233.github.io/post/san-jiao-han-shu/">
+        </link>
+        <updated>2020-06-23T09:46:04.000Z</updated>
+        <content type="html"><![CDATA[<p>反三角函数: 三角函数的反函数<br>
+arcsin(x) 定义域 [-PI/2, PI/2], 值域 [-1, 1]<br>
+arccos(x) 定义域 [0, PI], 值域 [-1, 1]<br>
+arctan(x) 定义域 (-PI/2, PI/2), 值域 (-∞, +∞)<br>
+arccot(x) 定义域 (0, PI), 值域 (-∞, +∞)</p>
+<p>少见表达方式<br>
+sec(x) = 1 / cos(x)<br>
+csc(x) = 1 / sin(x)</p>
+<p>六边形法则<br>
+sin(x)      cos(x)<br>
+tan(x)      1       cot(x)<br>
+1/cos(x)    1/sin(x)<br>
+平方和: 倒三角部分的两上端点平方和等于下端点平方<br>
+sin^2(x) + cos^2(x) = 1<br>
+tan^2(x) + 1 = 1/cos^2(x)<br>
+cot^2(x) + 1 = 1/sin^2(x)<br>
+任一边点元素 = 顺时针相邻两点比值 = 临近两点乘积<br>
+sin(x) = cos(x) / cot(x) = tan(x) * cos(x)</p>
+<p>万能替换公式 -&gt; 替换为 tan(x/2)<br>
+six(x) = (2 * tan(x/2)) / (1 + tan^2(x/2))<br>
+cos(x) = (1 - tan^2(x/2)) / (1 + tan^2(x/2))<br>
+tan(x) = (2 * tan(x/2)) / (1 - tan^2(x/2))</p>
+<p>其他公式<br>
+arctan(x) + arccot(x) = PI/2<br>
+tan(a+b) = (tan(a) + tan(b)) / (1- (tan(a) * tan(b)))</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C++ 控制台输出不同颜色字符]]></title>
         <id>https://feihu233.github.io/post/C++ConsoleColor/</id>
