@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feihu233.github.io</id>
     <title>Gridea</title>
-    <updated>2020-06-23T09:54:04.100Z</updated>
+    <updated>2020-06-24T02:10:50.270Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://feihu233.github.io"/>
     <link rel="self" href="https://feihu233.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://feihu233.github.io/images/avatar.png</logo>
     <icon>https://feihu233.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[排列组合]]></title>
+        <id>https://feihu233.github.io/post/pai-lie-zu-he/</id>
+        <link href="https://feihu233.github.io/post/pai-lie-zu-he/">
+        </link>
+        <updated>2020-06-23T10:04:05.000Z</updated>
+        <content type="html"><![CDATA[<p>约定: A(m,n), m 在 A 的右上, n 在 A 的右下<br>
+排列: 按特别顺序进行排列,类似于数组,如1234,3214算两个排列<br>
+A(m,n) = n! / (n-m)!<br>
+n! = 1<em>2</em>...*n<br>
+组合: 类似于集合,{1,2,3,4},出现特定的几个元素即可,不需要按顺序排列<br>
+C(m,n) = A(m,n)/A(m,m)  = n! / m! * (n-m)!<br>
+性质:<br>
+C(m,n)=C(n-m,n)<br>
+m = (n+1)/2 时取得最大值</p>
+<p>排列组合进阶-二项式定理<br>
+(a+b)^n = { i in [0,n] }SUM{C_n^i * a^(n-i) * b^i}</p>
+<p>例题<br>
+10本书随机排列,问指定4本书放在一起的概率<br>
+1. 将这4本书视为一个整体,排列数 A(4,4)<br>
+2. 整体4本书和其他6本书组成新排列 A(7,7)<br>
+3. 总计10本书的排列 A(10,10)<br>
+4. P = (1)*(2)/(3)</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三角函数]]></title>
         <id>https://feihu233.github.io/post/san-jiao-han-shu/</id>
