@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feihu233.github.io</id>
     <title>Gridea</title>
-    <updated>2020-06-24T02:11:12.611Z</updated>
+    <updated>2020-06-25T09:45:21.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://feihu233.github.io"/>
     <link rel="self" href="https://feihu233.github.io/atom.xml"/>
@@ -22,6 +22,7 @@ A(m,n) = n! / (n-m)!<br>
 n! = 1<em>2</em>...*n<br>
 组合: 类似于集合,{1,2,3,4},出现特定的几个元素即可,不需要按顺序排列<br>
 C(m,n) = A(m,n)/A(m,m)  = n! / m! * (n-m)!<br>
+C(m,n)*C(k) =C(k,n)*C(m-k,n-k)<br>
 性质:<br>
 C(m,n)=C(n-m,n)<br>
 m = (n+1)/2 时取得最大值</p>
@@ -41,11 +42,29 @@ m = (n+1)/2 时取得最大值</p>
         <link href="https://feihu233.github.io/post/san-jiao-han-shu/">
         </link>
         <updated>2020-06-23T09:46:04.000Z</updated>
-        <content type="html"><![CDATA[<p>反三角函数: 三角函数的反函数<br>
+        <content type="html"><![CDATA[<p>加减法公式<br>
+sin(A+B)=sinA<em>cosB+cosA</em>sinB<br>
+sin(A-B)=sinA<em>cosB-cosA</em>sinB<br>
+cos(A+B)=cosA<em>cosB-sinA</em>sinB<br>
+cos(A-B)=cosA<em>cosB+sinA</em>sinB<br>
+tan(A+B)=(tanA+tanB)/(1-tanA<em>tanB)<br>
+tan(A-B)=(tanA-tanB)/(1+tanA</em>tanB)<br>
+cot(A+B)=(cotA<em>cotB-1)/(cotB+cotA)<br>
+cot(A-B)=(cotA</em>cotB+1)/(cotB-cotA)</p>
+<p>二倍角公式<br>
+sin(2A)=2<em>sinA</em>cosA<br>
+cos(2A)=cos<sup>2(A)-sin</sup>2(A)=1-2<em>sin<sup>2(A)=2*cos</sup>2(A)-1<br>
+tan(2A)=(2</em>tan(A)) / (1-tan^2(A))</p>
+<p>半角公式<br>
+sin^2(A)=(1-cos(2A)) / 2<br>
+cos^2(A)=(1+cos(2A)) / 2<br>
+tan^2(A)=(1-cos(2A)) / (1+cos(2A))</p>
+<p>反三角函数: 三角函数的反函数<br>
 arcsin(x) 定义域 [-PI/2, PI/2], 值域 [-1, 1]<br>
 arccos(x) 定义域 [0, PI], 值域 [-1, 1]<br>
 arctan(x) 定义域 (-PI/2, PI/2), 值域 (-∞, +∞)<br>
-arccot(x) 定义域 (0, PI), 值域 (-∞, +∞)</p>
+arccot(x) 定义域 (0, PI), 值域 (-∞, +∞)<br>
+arctan(x) + arccot(x) = PI/2</p>
 <p>少见表达方式<br>
 sec(x) = 1 / cos(x)<br>
 csc(x) = 1 / sin(x)</p>
@@ -59,13 +78,13 @@ tan^2(x) + 1 = 1/cos^2(x)<br>
 cot^2(x) + 1 = 1/sin^2(x)<br>
 任一边点元素 = 顺时针相邻两点比值 = 临近两点乘积<br>
 sin(x) = cos(x) / cot(x) = tan(x) * cos(x)</p>
-<p>万能替换公式 -&gt; 替换为 tan(x/2)<br>
+<p>三角形恒等变换 -&gt; 替换为 tan(x/2)<br>
 six(x) = (2 * tan(x/2)) / (1 + tan^2(x/2))<br>
 cos(x) = (1 - tan^2(x/2)) / (1 + tan^2(x/2))<br>
 tan(x) = (2 * tan(x/2)) / (1 - tan^2(x/2))</p>
 <p>其他公式<br>
-arctan(x) + arccot(x) = PI/2<br>
-tan(a+b) = (tan(a) + tan(b)) / (1- (tan(a) * tan(b)))</p>
+2 * sinA * cosB = (sin(A+B) + sin(A-B))<br>
+sin(2A) + sin(2B) = 2 * sin(a+b) * cos(A-B)</p>
 ]]></content>
     </entry>
     <entry>
